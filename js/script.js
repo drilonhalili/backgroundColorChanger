@@ -1,9 +1,9 @@
-//Choose a random color
+//Choose a random color to change the background color
 const button = document.querySelector("button");
 const body = document.querySelector("body");
-const colors = ["red", "green", "blue", "yellow", "pink", "purple"];
+const colors = ["blue", "yellow", "pink"];
 
-body.style.backgroundColor = "violet";
+body.style.backgroundColor = "red";
 button.addEventListener("click", changeBackground);
 
 function changeBackground() {
